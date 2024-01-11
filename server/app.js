@@ -9,7 +9,8 @@ const answerRouter = require("./api/answers/answer.router");
 const  { pool } = require('./db/database');
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  //origin: 'http://localhost:5173',
+  origin: 'https://nitsu-evangadi-forum.netlify.app',
   credentials: true
 }));
 
